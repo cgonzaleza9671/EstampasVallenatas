@@ -219,7 +219,7 @@ const Home: React.FC<{ setView: (view: ViewState) => void }> = ({ setView }) => 
                     </div>
                     <AccordionPlayIcon className="w-10 h-8 text-vallenato-blue opacity-30" />
                   </div>
-                  <p className="text-gray-600 text-sm line-clamp-3 italic border-l-2 border-vallenato-beige pl-3 mb-4">"{item.descripcion}"</p>
+                  <p className="text-gray-600 text-sm line-clamp-3 border-l-2 border-vallenato-beige pl-3 mb-4">"{item.descripcion}"</p>
                 </div>
                 <div className="bg-vallenato-cream p-4 border-t" onClick={(e) => e.stopPropagation()}>
                   <audio controls src={item.audio_url || ''} className="w-full h-8" />
