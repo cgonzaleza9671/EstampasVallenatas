@@ -91,7 +91,7 @@ const MediaModal: React.FC<MediaModalProps> = ({ item, onClose }) => {
                Relato de la Estampa:
             </h4>
             <div className="bg-gray-50 p-4 sm:p-6 rounded-2xl border-l-4 border-vallenato-mustard">
-               <p className="text-gray-700 leading-relaxed font-serif text-base md:text-lg">"{item.descripcion}"</p>
+               <p className="text-gray-700 leading-relaxed font-serif text-base md:text-lg">{item.descripcion}</p>
             </div>
           </div>
         </div>

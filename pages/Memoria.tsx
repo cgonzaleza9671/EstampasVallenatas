@@ -239,7 +239,7 @@ const Memoria: React.FC = () => {
                         <span className="flex items-center bg-gray-50 px-2 py-1 rounded"><Timer className="w-3 h-3 mr-1" /> {item.duracion}</span>
                       </div>
                       <p className="text-gray-600 text-sm mb-4 line-clamp-2 border-l-2 border-vallenato-cream pl-3">
-                        "{item.descripcion}"
+                        {item.descripcion}
                       </p>
                       <div className="mt-auto pt-4 flex justify-between items-center border-t border-gray-50">
                         <span className="text-[10px] text-vallenato-blue font-bold uppercase tracking-widest flex items-center group-hover:text-vallenato-red">
@@ -262,7 +262,7 @@ const Memoria: React.FC = () => {
                         <span className="flex items-center bg-gray-50 px-2 py-1 rounded"><Timer className="w-3 h-3 mr-1" /> {item.duracion}</span>
                       </div>
                       <p className="text-gray-600 text-sm mb-6 line-clamp-3 border-l-2 border-vallenato-cream pl-3 group-hover:border-vallenato-mustard transition-colors">
-                        "{item.descripcion}"
+                        {item.descripcion}
                       </p>
                       <div className="flex justify-end mt-auto">
                          <span className="text-[10px] text-vallenato-blue font-bold uppercase tracking-widest flex items-center group-hover:text-vallenato-red transition-colors">

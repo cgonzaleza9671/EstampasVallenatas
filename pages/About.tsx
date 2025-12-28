@@ -265,9 +265,9 @@ const About: React.FC = () => {
               <div className="p-3 bg-vallenato-red/10 rounded-2xl text-vallenato-red">
                 <History className="w-8 h-8" />
               </div>
-              <h2 className="text-3xl md:text-4xl font-serif font-bold text-vallenato-blue italic">Anécdota y legado</h2>
+              <h2 className="text-3xl md:text-4xl font-serif font-bold text-vallenato-blue">Anécdota y legado</h2>
             </div>
-            <div className="space-y-8 text-gray-700 text-lg md:text-xl leading-relaxed font-serif italic">
+            <div className="space-y-8 text-gray-700 text-lg md:text-xl leading-relaxed font-serif">
               <p>
                 Sin poder ocultar la nostalgia al recordar el recorrido folclórico que 'Estampas Vallenatas' protagonizó en la radio nacional, Álvaro González afirma que la mayor satisfacción fue llevarle a la población campesina y rural de Colombia un deleite espiritual con música que no habían escuchado anteriormente.
               </p>

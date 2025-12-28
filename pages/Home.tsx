@@ -129,7 +129,7 @@ const Home: React.FC<{ setView: (view: ViewState) => void }> = ({ setView }) => 
             <div className="h-8 w-px bg-white/10 hidden sm:block mx-2"></div>
             <p className="text-sm md:text-lg font-medium tracking-tight">
               Escucha lo nuevo: 
-              <span className="font-serif italic font-bold text-vallenato-mustard ml-2 hover:text-white transition-colors cursor-pointer underline underline-offset-8 decoration-vallenato-red/50" onClick={() => setSelectedItem(latestAudios[0])}>
+              <span className="font-serif font-bold text-vallenato-mustard ml-2 hover:text-white transition-colors cursor-pointer underline underline-offset-8 decoration-vallenato-red/50" onClick={() => setSelectedItem(latestAudios[0])}>
                 "{latestAudios[0].titulo}"
               </span>
             </p>
@@ -219,7 +219,7 @@ const Home: React.FC<{ setView: (view: ViewState) => void }> = ({ setView }) => 
                     </div>
                     <AccordionPlayIcon className="w-10 h-8 text-vallenato-blue opacity-30" />
                   </div>
-                  <p className="text-gray-600 text-sm line-clamp-3 border-l-2 border-vallenato-beige pl-3 mb-4">"{item.descripcion}"</p>
+                  <p className="text-gray-600 text-sm line-clamp-3 border-l-2 border-vallenato-beige pl-3 mb-4">{item.descripcion}</p>
                 </div>
                 <div className="bg-vallenato-cream p-4 border-t" onClick={(e) => e.stopPropagation()}>
                   <audio controls src={item.audio_url || ''} className="w-full h-8" />
@@ -229,7 +229,7 @@ const Home: React.FC<{ setView: (view: ViewState) => void }> = ({ setView }) => 
           </div>
         ) : (
           <div className="bg-white p-12 rounded-3xl border-2 border-dashed border-vallenato-mustard/30 text-center">
-            <p className="text-gray-400 italic">No hay audios disponibles.</p>
+            <p className="text-gray-400">No hay audios disponibles.</p>
           </div>
         )}
       </section>
