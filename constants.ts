@@ -18,8 +18,9 @@ export const APP_IMAGES = {
   // Imagen representativa para Álvaro González
   aboutMain: "https://i.imgur.com/cJhXAof.jpeg",      
   
-  // Imagen representativa para Entrevista/Trabajo
-  aboutSecondary: "https://i.imgur.com/b4hg52f.png"   
+  // Imagen representativa para Entrevista/Trabajo (BAJO EL TEXTO DE MISIÓN CULTURAL)
+  // CAMBIA ESTA URL POR LA NUEVA IMAGEN QUE DESEES MOSTRAR
+  aboutSecondary: "https://i.imgur.com/hDuEleJ.jpeg"   
 };
 
 const LOREM_VALLENATO = "Esta obra maestra del folclor vallenato representa la esencia misma de la parranda tradicional. La composición narra vivencias profundas del autor, entrelazando la cotidianidad de la provincia con melodías que han trascendido generaciones. La ejecución del acordeón en esta pieza es magistral, demostrando por qué este instrumento es el alma de nuestra música. Se destacan los arreglos armónicos y la cadencia única que invita tanto a la reflexión como al baile. Es una pieza fundamental para entender la evolución del género, manteniendo intactas las raíces que lo vieron nacer en el Magdalena Grande. La letra es un poema costumbrista que describe paisajes, amores y desamores con una riqueza lírica inigualable, convirtiéndose en un tesoro cultural que debe ser preservado para las futuras generaciones. Escuchar esta canción es transportarse inmediatamente a un patio vallenato, bajo un árbol de mango, compartiendo historias y sentimientos hechos canción.";

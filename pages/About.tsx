@@ -240,13 +240,20 @@ const About: React.FC = () => {
                      <h2 className="text-3xl lg:text-4xl font-serif font-bold">Su Visión Cultural</h2>
                 </div>
                 <p className="text-gray-700 text-lg leading-relaxed">
-                    Su misión trasciende el entretenimiento. Álvaro busca garantizar que la corona del Festival repose siempre sobre quien mejor interprete los cuatro aires tradicionales.
+                    Su misión trasciende. Álvaro busca garantizar que la riqueza cultural del vallenato repose siempre sobre quien mejor interprete los cuatro aires tradicionales.
                 </p>
             </div>
-            <div className="w-full">
+            <div className="w-full flex flex-col items-center">
                 <div className="relative w-full rounded-2xl overflow-hidden shadow-lg border-4 border-vallenato-beige">
-                    <img src={APP_IMAGES.aboutSecondary} alt="Entrevista" className="w-full h-auto object-cover max-h-[600px]" />
+                    <img 
+                      src={APP_IMAGES.aboutSecondary} 
+                      alt="Álvaro González Pimienta junto al gran Luis Enrique Martínez" 
+                      className="w-full h-auto object-cover max-h-[600px] object-top" 
+                    />
                 </div>
+                <p className="mt-4 text-center font-serif text-gray-500 italic text-sm tracking-wide">
+                  Álvaro González Pimienta junto al gran Luis Enrique Martínez
+                </p>
             </div>
         </div>
 
@@ -261,10 +268,20 @@ const About: React.FC = () => {
               <h2 className="text-3xl md:text-4xl font-serif font-bold text-vallenato-blue italic">Anécdota y legado</h2>
             </div>
             <div className="space-y-8 text-gray-700 text-lg md:text-xl leading-relaxed font-serif italic">
-              <p>Sin poder ocultar la nostalgia al recordar el recorrido folclórico que 'Estampas Vallenatas' protagonizó en la radio nacional...</p>
-              <div className="bg-vallenato-beige/30 p-8 rounded-3xl border border-vallenato-mustard/10 text-vallenato-blue">
-                <p className="font-bold">"Cuando Luís Enrique regresaba, iba sagradamente a mi oficina a entregarme el valor de los arriendos..."</p>
+              <p>
+                Sin poder ocultar la nostalgia al recordar el recorrido folclórico que 'Estampas Vallenatas' protagonizó en la radio nacional, Álvaro González afirma que la mayor satisfacción fue llevarle a la población campesina y rural de Colombia un deleite espiritual con música que no habían escuchado anteriormente.
+              </p>
+              <p>
+                En cierta ocasión, programó la canción 'El accidente de Lisandro' y, casi de inmediato, recibió la llamada de un oyente conmovido: "Doctor González, yo pensé que ese tema no lo tenía nadie en Colombia". Años atrás, incluso Eloy 'Chichi' Quintero, desde su rol como Cónsul en Maracaibo, se comunicó con el programa para destacar la inmensa sintonía de 'Estampas Vallenatas' en territorio venezolano.
+              </p>
+              <div className="bg-vallenato-beige/30 p-8 rounded-3xl border border-vallenato-mustard/10 text-vallenato-blue relative">
+                <p className="leading-relaxed">
+                  "De la amistad entrañable con <strong>'El Pollo Vallenato', Luís Enrique Martínez</strong>, González Pimienta recuerda que durante la residencia del acordeonero en el sector de <strong>Fontibón</strong>, Luís Enrique salía de correduría y le dejaba instrucciones precisas a su esposa <strong>Rosa</strong> para que llamara al Doctor González, quien le solucionaría lo del <strong>arriendo</strong> (diez mil pesos de la época) mientras durara su recorrido musical. Cuando Luís Enrique regresaba, iba sagradamente a mi oficina a <strong>entregarme el valor de los arriendos</strong> que le había prestado a Rosa; <strong>nunca me aceptó que se los regalara</strong>".
+                </p>
               </div>
+              <p className="mt-8 text-center font-serif text-gray-500 italic text-sm tracking-wide">
+                Extracto de entrevista realizada para la revista del cuadragésimo segundo Festival de la Leyenda Vallenata
+              </p>
             </div>
           </div>
         </section>
