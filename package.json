@@ -3,6 +3,10 @@
   "name": "estampas-vallenatas",
   "version": "1.0.0",
   "private": true,
+  "scripts": {
+    "start": "serve .",
+    "build": "echo 'No build step required'"
+  },
   "dependencies": {
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
